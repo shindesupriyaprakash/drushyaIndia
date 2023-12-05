@@ -1,0 +1,276 @@
+    .navbar{
+        height: 800px;
+        width: 100%;
+        background-image:url("https://miro.medium.com/v2/resize:fit:1400/1*HrXb1Jvqgarkou7Vnj-oFA.jpeg");
+        background-position: "center";
+        background-size:cover ;
+    }
+
+    nav{
+        display: flex;
+        padding: 3% 8% ;
+        align-items: center;
+        justify-content:space-between;
+    }
+
+    body nav ul{
+    position: absolute;
+    text-decoration: none;
+    list-style: none;
+    top:5px;
+    right: 0px;
+    justify-content: space-around;
+    width: 90%;
+}
+body nav ul li{
+   padding: 20px;
+   margin-left: 5px;
+   margin-right: 5px;
+   text-decoration: none;
+   list-style: none;
+}
+body nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    font-weight: bold;
+}
+body nav{
+    position: fixed;
+    padding: 0%;
+    margin: 0%;
+    top: 0%;
+    background-color: #664291;
+    width: 100%;
+    height: 70px;
+}
+body nav ul{
+    display: flex;
+}
+body nav ul .ul{
+    display: none;
+}
+nav .logoimg i{
+    display: none;
+}
+/*logo image*/
+    nav img{
+        position: fixed;
+        top: 10px;
+        left: 40px;
+        height: 60px;
+        width: 70px;
+    }
+    nav ul .li:hover{
+        background-color: aqua;
+    }
+ nav ul .li a:hover{
+        color: #0e0303;
+    }
+
+ /*for home nav*/
+#home-sub{
+    background-color: rgba(102, 66, 145, 0.93);
+    color: #f2f2f2;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 400px;
+    margin: 8px;
+}
+
+#home:hover #home-sub {
+    display: block;
+}
+#home-sub li:hover{
+    background-color: aqua;
+}
+#home-sub li a:hover{
+    color: #0e0303;
+}
+/*for internship*/
+#intership-sub{
+    background-color: rgba(102, 66, 145, 0.93);
+    color: #f2f2f2;
+    position: absolute;
+    top: 50px;
+    left: 600px;
+    width: 400px;
+    margin: 10px;
+}
+
+#intership:hover #intership-sub {
+    display: block;
+}
+#intership-sub li:hover{
+    background-color: aqua;
+}
+#intership-sub li a:hover{
+     color: #0e0303;
+}
+/*for contact*/
+ #contact-sub{
+    background-color: rgba(102, 66, 145, 0.93);
+    color: #f2f2f2;
+    position: absolute;
+    top: 50px;
+    left: 1000px;
+    width: 300px;
+    margin: 10px;
+}
+
+#contact:hover #contact-sub {
+    display: block;
+}
+#contact-sub li:hover{
+    background-color: aqua;
+    color: #0e0303;
+}
+#contact-sub li a:hover{
+     color: #0e0303;
+}
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.container{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    
+
+}
+h1{
+   font-size: 60px;
+   color: rgb(162, 9, 193)
+}
+.dig{
+    
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.dig h2{
+    font-size:50px;
+    font-weight:400;
+    color: rgb(102, 66, 145);
+    
+     text-align: center;
+}
+.dig h3{
+    font-size: 20px;
+    color: rgb(109, 7, 7);
+    text-align: center;
+    color: #f2f2f2;
+}
+.dig-header{
+    margin-top:5%;
+    display:flex;
+    justify-content:space-between;
+    
+}
+.dig-title{
+    flex-basis: 31%;
+    background-color: #3d445b;
+    color: white;
+    border:4px solid white;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h4{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+
+}
+.dig-header1{
+    margin-top:5%;
+    display:flex;
+    justify-content:space-between;
+    
+}
+.dig-title1{
+    flex-basis: 31%;
+    background-color: #3d445b;
+    color: white;
+    border:4px solid white;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h4{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+
+}
+.dig-header2{
+    margin-top:5%;
+    display:flex;
+    justify-content:space-between;
+    
+}
+.dig-title2{
+    flex-basis: 31%;
+    background-color: #3d445b;
+    color: white;
+    border:4px solid white;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    
+}
+h4{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+
+}
+.price{
+    display: block;
+    flex-direction:column;
+    justify-content:center;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+.price1, .price2, .price3 {
+            background-color: rgb(102, 66, 145);
+            display: inline-block;
+            vertical-align: top;
+            margin: 10px;
+            margin: 50px;
+            border: 2px solid #0e0303;
+            
+        }
+    
+
+h3{
+    background-color: brown;
+    color: #ffffff;
+    font-size:30px;
+
+}
+
+.price1 , .price2,.price3{
+    color: #f2f2f2;
+}

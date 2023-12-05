@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Drushya India</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<script type="text/javascript">
+    function move(){
+        let yellowEle = document.getElementById('yellow');
+        let poe = 0;
+        let anime = setInterval(animate,10);
+        function animate() {
+            if (poe == 1900) {
+                clearInterval(anime);
+            }
+            else {
+                poe++;
+                yellowEle.style.top = poe+"px";
+            }
+        }
+    }
+
+    function move2() {
+        let redEle = document.getElementById('red');
+        let poea = 670;
+        let anim = setInterval(animate, 10);
+
+        function animate() {
+            if (poea == 0) {
+                clearInterval(anim);
+            } else
+                {
+                    poea--;
+                    redEle.style.right = poea + 'px';
+                    redEle.style.top = poea + 'px';
+                }
+        }
+    }
+
+
+    function move3() {
+        let blueEle = document.getElementById('red2');
+        let poeat = 0;
+        let anim = setInterval(animate, 10);
+
+        function animate() {
+            if (poeat == 1670) {
+                clearInterval(anim);
+            } else
+            {
+                poeat++;
+                blueEle.style.left= poeat + 'px';
+                blueEle.style.bottom= poeat + 'px';
+            }
+        }
+    }
+    function move4() {
+        let blueEle = document.getElementById('purple');
+        let poeat = 789;
+        let anim = setInterval(animate, 10);
+
+        function animate() {
+            if (poeat == 0) {
+                clearInterval(anim);
+            } else
+            {
+                poeat++;
+                blueEle.style.right= poeat + 'px';
+                blueEle.style.top= poeat + 'px';
+            }
+        }
+    }
+</script>
+</head>
+    <body>
+        <section class="navbar">
+      <div class="container">
+        <h1>Drushya Digital India</h1>
+        <h3>Our main aim is to help small businesses...</h3>
+        <a href="#">Our Project</a>
+      </div>
+            <nav>
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT45n7F1jgXKNEgDNaFBkX7whSSROXFhxxcfU6v2T5oA&s" alt="logo"/>
+                <ul>
+                    <li class="li"><a href="#">Home</a></li>
+                    <li class="li" id="home"><a href="#">Service</a>
+                        <ul class="ul" id="home-sub">
+                            <li><a href="web.html">WebsiteDevelopment</a></li>
+                            <li><a href="digital.html">DigitalBusinessCards</a></li>
+                        </ul>
+                    </li>
+                    <li class="li" id="intership"><a href="#">Intership</a>
+                      <ul class="ul" id="intership-sub">
+                        <li><a href="#">WebDevelopment</a></li>
+                        <li><a href="#">DigitalMarketing</a></li>
+                        <li><a href="#">CyberSecurity</a></li>
+                        <li><a href="#">AI</a></li>
+                        <li><a href="#">GraphicDesign</a></li>
+                      </ul>
+                    </li>
+                    <li class="li" id="contact"><a href="#">contact Us</a>
+                    <ul class="ul" id="contact-sub">
+                        <li><a href="tel:+919673575452">📞+919673575452</a></li>
+                        <li><a href="drushyaindia@gmail.com">drushyaindia@gmail.com </a></li>
+                    </ul>
+                    </li>
+                <div class="logoimg">
+                    <i class="fa fa-bars" id="fabars" onclick="showMeun()"></i>
+                    <i class="fa fa-times" onclick="hideMeun()"></i>
+                </div>
+               </ul>
+            </nav>
+
+</section>
+<section class ="title">
+    
+<h5>Journey Towards Success</h5>
+<h2>What we do for 
+    <i>you</i>
+</h2>
+<div class="animespace" onmouseout="move4()" onmousemove="move5()" onmouseover="move6()"></div>
+    <div id="yellow"></div>
+    <div id="red"></div>
+    <div id="red2"></div>
+    <div id="purple"></div>
+    <div id="orange"></div>
+    <div id="white"></div>
+<div class="row">
+<div class ="box" data-aos="slide-right">
+    
+    <h3>Website Development</h3>
+    <p>Website in this digital world is important so leave
+         to us and we make one for you. 
+         Let's grow you business online together. </p>
+         </div>
+         <div class ="box" data-aos="fade-up">
+            <h3>Digital Business Cards</h3>
+            <p>Digital business cards is booming now forget that paper cards & Give
+                 your business a new identity by creating a digital business card.</p>
+                 </div>
+                 <div class ="box" data-aos="slide-left">
+                    <h3>Application Development</h3>
+                    <p>Applications development services available at reasonable cost Delivering 
+                        success with every solution regarding the online applications.</p>
+                         </div>
+                        </div>
+                         <div class="row1">
+                         <div class ="box1" data-aos="slide-right">
+                            <h3>Graphic Designing</h3>
+                            <p>We also do a graphics designing for growing your business
+                                 and stand out unique from others.</p>
+                                 </div>
+                                 <div class ="box1" data-aos="fade-up">
+                                    <h3>Digital Marketing</h3>
+                                    <p>Bring your imagination to real life We are here
+                                         to help you out Just give us ideas, we are here
+                                         to help you out be where the world is going.</p>
+                                         </div>
+                                         <div class ="box1" data-aos="slide-left">
+                                            <h3>Virtual Event Management</h3>
+                                            <p>We manage your virtual events fully 
+                                                securely like online quiz test and others.</p>
+                                    
+                                            </div>
+
+                                                 
+                </div>
+            </section>
+     <!------------------------------- work done---------------------------------> 
+
+            <section class="work">
+                <h4>See what we have done</h4>
+                <h1>Our Awesome work</h1>
+
+                <div class="project">
+                   <div class="item" data-aos="zoom-in">
+                    <h2>Tools And Jobs</h2>
+                    <p>Explore the world of Education, Because only 
+                        education matters! Global & Learning 
+                        Education Hub For Objective Questions </p>
+                    </div>
+                    <div class="item" data-aos="zoom-in">
+                    <h2>Delving Orbit</h2>
+                    <p>Resarch and reiview paper </p>
+                    </div>
+                </div>
+                <div class="item">
+                <h2>Green Raksha</h2>
+                <p>Farmer company</p>
+                </div>
+                <div class="item">
+                    <h2>SHAKDWIPIYA MAG BRAHMAN SAMAJ, 
+                        MAHARASHTRA</h2>
+                    
+                    </div>
+                    <div class="item">
+                        <h2>Space In Hindi</h2>
+                        <p>Blog Website</p>
+                        
+                        </div>
+
+                </div>
+
+            </section>
+
+<!-- contact us---------->
+<section class="cta" data-aos="zoom-out">
+    <p>Supporting Your Success , Every step of the way<p>
+        <a href="">CONTACT US</a>
+</section>
+
+<!-- footer---------->
+<section class="footer">
+    <h4>About Company</h4>
+    <h6>Get In Touch With Highly Skilled
+        Digital Marketing Team.</h6>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin" ></i>
+        </div>
+        <div class="foot">
+        <div class="add" data-aos="flip-up">
+            <h3>SantNagar, Shirdi</h3>
+            <h6>Ahemadnagar, MH, India</h6>
+        </div>
+        <div class="no" data-aos="flip-up">
+            <h3>24x7 Support on WhatsApp </h3>
+            <h6>+91 9673575452</h6>
+        </div>
+        <div class="email" data-aos="flip-up">
+            <h3>Email Us at </h3>
+            <h6>drushyaindia@gmail.com</h6>
+        </div>
+        </div>
+      <footer>
+        <div>
+          <p class="center">copyright &copy; 2023 DrushyaIndia | Drushya Digital India </p>
+        </div>
+      </footer>
+</section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+    </body>
+    </html>
